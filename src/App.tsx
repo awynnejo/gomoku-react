@@ -2,8 +2,9 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Main from './Main';
 import './index.css';
-import './gomoku_game';
 
+/* import './gomoku_game';
+ *  */
 export default function App() {
   return (
     <>
@@ -20,7 +21,7 @@ export default function App() {
       </div>
     </>
   )
-}
+};
 
 
 
